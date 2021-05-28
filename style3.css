@@ -1,0 +1,161 @@
+ *
+ {
+ 	margin:0;
+ 	padding: 0;
+  }header
+{
+  background-image:url(nomcebo.jpeg);
+   height: 10vh;
+   position: relative;
+   background-size: 100%
+   background-position: center;
+}
+ 
+.main-nav
+{
+  float: right; 
+  list-style: none;
+  margin-top: 30px;
+}
+
+.main-nav li
+{
+  display: inline-block;
+
+}
+.main-nav li a
+{
+  color: black;
+  text-decoration: none;
+  padding: 5px 25px;
+  font-family: "Roboto",sans-serif;
+  font-size: 15px
+}
+
+.main-nav li.active a
+{
+  border: 1px solid white;
+}
+
+.main-nav li a:hover
+{
+  border: 1px solid white;
+}
+
+.logo img
+{
+  width: 150px;
+  height: auto;
+  float: left;
+}
+
+body
+{
+  font font-family: monospace;
+}
+
+.row
+{
+  max-width: 1200px
+  margin:auto; 
+}
+
+.hero
+{
+  position: absolute;
+  width: 1200px;
+  margin-left:200px;
+  margin-top: 400px;
+  color: black;
+  text-transform: uppercase;
+  text-align: left;
+}
+
+.imgtile
+{
+  position: absolute;
+}
+
+.h1
+{
+  color: black;
+  text-transform: uppercase;
+  font-size: 50px;
+  text-align: center;
+  margin-top: 375px;
+}
+
+/* Style inputs with type="text", select elements 
+and textareas */
+input[type=text], select, textarea {
+ 0 width: 100%; /* Full width */
+  padding: 12px; /* Some padding */  
+  border: 1px solid #ccc; /* Gray border *
+/
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  background-color: #4CAF50;
+  color: black;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+/* Add a background color and some padding around the form */
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+}
+
+.sidenav {
+  height: 100%;
+  width: 160px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.main {
+  margin-left: 160px; /* Same as the width of the sidenav */
+  font-size: 28px; /* Increased text to enable scrolling */
+  padding: 0px 10px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
